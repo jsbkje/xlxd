@@ -31,6 +31,7 @@ start () {
 # start daemon
 
 	echo -n "Starting $NAME: "
+	sleep 10
 	start-stop-daemon --start --exec $DAEMON --chuid $USER:$GROUP --background -- $ARGUMENTS
 	RETVAL=$?
 	echo
