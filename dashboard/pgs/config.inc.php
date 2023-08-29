@@ -20,7 +20,7 @@ $PageOptions['ContactEmail']                         = 'your_email';	// Support 
 $PageOptions['DashboardVersion']                     = '2.4.2';		// Dashboard Version
 
 $PageOptions['PageRefreshActive']                    = true;		// Activate automatic refresh
-$PageOptions['PageRefreshDelay']                     = '10000';		// Page refresh time in miliseconds
+$PageOptions['PageRefreshDelay']                     = '1000';		// Page refresh time in miliseconds
 
 $PageOptions['NumberOfModules']                      = 4;		// Number of Modules enabled on reflector
 
@@ -49,7 +49,7 @@ $PageOptions['MetaRevisit']                          = 'After 30 Days';							//
 $PageOptions['MetaRobots']                           = 'index,follow';							// Meta Tag Values, usefull for Search Engine
 
 $PageOptions['UserPage']['ShowFilter']               = true;								// Show Filter on Users page
-$PageOptions['Traffic']['Show']                      = false;								// Enable vnstat traffic statistics
+$PageOptions['Traffic']['Show']                      = true;								// Enable vnstat traffic statistics
 $PageOptions['IRCDDB']['Show']                       = true;        // Show liveircddb, set it to false if you are running your db in https 
 
 $PageOptions['CustomTXT']                            = '';					// custom text in your header   
@@ -63,14 +63,14 @@ $CallingHome['ServerURL']                            = 'http://xlxapi.rlx.lu/api
 $CallingHome['PushDelay']                            = 600;					// push delay in seconds
 $CallingHome['Country']                              = "your_country";				// Country
 $CallingHome['Comment']                              = "your_comment";				// Comment. Max 100 character
-$CallingHome['HashFile']                             = "/tmp/callinghome.php";			// Make sure the apache user has read and write permissions in this folder.
-$CallingHome['LastCallHomefile']                     = "/tmp/lastcallhome.php";			// lastcallhome.php can remain in the tmp folder 
+$CallingHome['HashFile']                             = "/xlxd/callinghome.php";			// Make sure the apache user has read and write permissions in this folder.
+$CallingHome['LastCallHomefile']                     = "/xlxd/lastcallhome.php";			// lastcallhome.php can remain in the tmp folder 
 $CallingHome['OverrideIPAddress']                    = "";					// Insert your IP address here. Leave blank for autodetection. No need to enter a fake address.
 $CallingHome['InterlinkFile']                        = "/xlxd/xlxd.interlink";			// Path to interlink file
 
 $VNStat['Interfaces']                                = array();
 $VNStat['Interfaces'][0]['Name']                     = 'eth0';
-$VNStat['Interfaces'][0]['Address']                  = 'eth0';
+$VNStat['Interfaces'][0]['Address']                  = 'enp0s3';
 $VNStat['Binary']                                    = '/usr/bin/vnstat';
 
 /*   
