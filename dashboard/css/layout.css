@@ -1,9 +1,10 @@
 body {
    margin               : 0px;
    padding              : 0px;
-   background-color     : #D3D3D3;
+   background-color     : #FFFFFF;
    font-family          : calibri, verdana, arial, comic sans;
    min-width            : 760px;
+   
 }
 
 h1 {
@@ -46,7 +47,7 @@ a.tip:hover span {
 
 #top {
    height               : 115px;
-   background-color     : #FFFFFF;
+   background-color     : #186D86;
    width                : 100%;
    background-image     : url('../img/dvc.jpg');
    background-repeat    : no-repeat;
@@ -55,6 +56,7 @@ a.tip:hover span {
    left                 : 0px;
    top                  : 0px;  
    min-width            : 760px;   
+   color		: #2CAEA6;
 }
 
 #menu {
@@ -66,7 +68,7 @@ a.tip:hover span {
 #menubar {
    height               : 40px;
    width                : 100%;
-   background-color     : #FEC456;
+   background-color     : #104743;
    position             : absolute;   
    left                 : 0px;
    top                  : 115px;
@@ -90,8 +92,8 @@ a.tip:hover span {
    padding-bottom       : 3px;
    padding-right        : 10px;
    margin-left          : 10px;
-   background-color     : #FFFFC6;
-   color                : #000000;
+   background-color     : #000000;
+   color                : #2CD0C6;
 }
 
  .menulinkactive {
