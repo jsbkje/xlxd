@@ -22,7 +22,7 @@ $PageOptions['DashboardVersion']                     = '2.4.2';		// Dashboard Ve
 $PageOptions['PageRefreshActive']                    = true;		// Activate automatic refresh
 $PageOptions['PageRefreshDelay']                     = '1000';		// Page refresh time in miliseconds
 
-$PageOptions['NumberOfModules']                      = 4;		// Number of Modules enabled on reflector
+$PageOptions['NumberOfModules']                      = 26;		// Number of Modules enabled on reflector
 
 $PageOptions['RepeatersPage'] = array();
 $PageOptions['RepeatersPage']['LimitTo']             = 99;		// Number of Repeaters to show
@@ -41,6 +41,28 @@ $PageOptions['ModuleNames']['A']                     = 'Int.';
 $PageOptions['ModuleNames']['B']                     = 'Regional';
 $PageOptions['ModuleNames']['C']                     = 'National';
 $PageOptions['ModuleNames']['D']                     = '';
+$PageOptions['ModuleNames']['E']                     = '';
+$PageOptions['ModuleNames']['F']                     = '';
+$PageOptions['ModuleNames']['G']                     = '';
+$PageOptions['ModuleNames']['H']                     = '';
+$PageOptions['ModuleNames']['I']                     = '';
+$PageOptions['ModuleNames']['J']                     = '';
+$PageOptions['ModuleNames']['K']                     = '';
+$PageOptions['ModuleNames']['L']                     = '';
+$PageOptions['ModuleNames']['M']                     = '';
+$PageOptions['ModuleNames']['N']                     = '';
+$PageOptions['ModuleNames']['O']                     = '';
+$PageOptions['ModuleNames']['P']                     = '';
+$PageOptions['ModuleNames']['Q']                     = '';
+$PageOptions['ModuleNames']['R']                     = '';
+$PageOptions['ModuleNames']['S']                     = '';
+$PageOptions['ModuleNames']['T']                     = '';
+$PageOptions['ModuleNames']['U']                     = '';
+$PageOptions['ModuleNames']['V']                     = '';
+$PageOptions['ModuleNames']['W']                     = '';
+$PageOptions['ModuleNames']['X']                     = '';
+$PageOptions['ModuleNames']['Y']                     = '';
+$PageOptions['ModuleNames']['Z']                     = '';
 
 $PageOptions['MetaDescription']                      = 'XLX is a D-Star Reflector System for Ham Radio Operators.';	// Meta Tag Values, usefull for Search Engine
 $PageOptions['MetaKeywords']                         = 'Ham Radio, D-Star, XReflector, XLX, XRF, DCS, REF, ';		// Meta Tag Values, usefull forSearch Engine
