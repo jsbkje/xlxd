@@ -68,10 +68,10 @@ $CallingHome['LastCallHomefile']                     = "/xlxd/lastcallhome.php";
 $CallingHome['OverrideIPAddress']                    = "";					// Insert your IP address here. Leave blank for autodetection. No need to enter a fake address.
 $CallingHome['InterlinkFile']                        = "/xlxd/xlxd.interlink";			// Path to interlink file
 
-$VNStat['Interfaces']                                = array();
-$VNStat['Interfaces'][0]['Name']                     = 'eth0';
-$VNStat['Interfaces'][0]['Address']                  = 'enp0s3';
-$VNStat['Binary']                                    = '/usr/bin/vnstat';
+#$VNStat['Interfaces']                                = array();
+#$VNStat['Interfaces'][0]['Name']                     = 'eth0';
+#$VNStat['Interfaces'][0]['Address']                  = 'enp0s3';
+#$VNStat['Binary']                                    = '/usr/bin/vnstat';
 
 /*   
 include an extra config file for people who dont like to mess with shipped config.ing.php   
